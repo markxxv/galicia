@@ -83,6 +83,38 @@ a:active {
   padding: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  text-align: center;
+}
+
+#topPanel input {
+  outline: none;
+    line-height: 60px;
+    background: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #525458;
+    border: none;
+    display: block;
+    border-radius: 4px;
+    width: 300px;
+    display: inline-block;
+    margin: 15px;
+}
+
+#topPanel input[type=submit]  {
+  background-color: #7570ff;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#topPanel input[type=submit]:hover  {
+  background-color: #5753cb;
+  color: #fff;
+}
+
+.topPanelHead {
+  font-family: 'Lora', serif;
+  font-size: 52px;
 }
 
 .frontLead {
