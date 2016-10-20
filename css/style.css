@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&subset=cyrillic');
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'PT Sans Caption', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+.frontHeader{
+  background-color: #f6f6f6;
+  color: #2A2C2F;
+  padding-bottom: 90px;
+}
+.frontHeader h1 {
+  margin: 80px 0 0 0;
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  font-weight: normal;
+  max-width: 800px;
+}
+.frontHeader h2 {
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  font-weight: normal;
+  max-width: 800px;
+  color: #666A70;
+  line-height: 65px;
+}
+.frontHeader .lead {
+  font-size: 27px;
+  color: #ccc;
+}
+.logo {
+  display: inline-block;
+  font-family: 'Lora', serif;
+  font-size: 42px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#mainNav {
+  float: right;
+  margin-right: -30px;
+}
+#mainNav li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+}
+#mainNav li a {
+  color: #74767f;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+#mainNav li a::after{
+  display: block;
+  width: 0;
+  height: 3px;
+  content: " ";
+  background-color: #7570ff;
+  transition: 0.3s;
+}
+#mainNav li:hover a::after {
+  width: 100%;
+}
+#topPanel {
+  display: none;
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.frontLead {
+  padding: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.frontLead h3 {
+  font-family: 'Lora', serif;
+  font-weight: normal;
+  font-size: 42px;
+}
+.frontLead .lead {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  font-size: 20px;
+  color: #999;
+  padding-bottom: 15px;
+}
+
+.frontLead .buttn{
+  margin: 15px;
+}
+
+.buttn {
+  height: 56px;
+  line-height: 56px;
+  display: inline-block;
+  background: #1ad5b1;
+  padding: 0 40px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 23px 35px rgba(26,213,177,0.33);
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.buttn.wl {
+  background: #7570ff;
+  box-shadow: 0 23px 35px rgba(117,112,255,0.33);
+}
+
+.buttn:hover {
+  box-shadow: 0 23px 35px rgba(255,255,255,0.0);
+  color: #fff;
+}
